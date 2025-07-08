@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Siru Writes</title>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&family=Open+Sans&display=swap" rel="stylesheet">
+  <style>
+    body {
+      font-family: 'Open Sans', sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #fafafa;
+      color: #333;
+    }
+    header {
+      background: #222;
+      color: #fff;
+      padding: 2rem;
+      text-align: center;
+    }
+    header h1 {
+      margin: 0;
+      font-family: 'Playfair Display', serif;
+      font-size: 2.5rem;
+    }
+    nav {
+      background: #444;
+      text-align: center;
+      padding: 1rem;
+    }
+    nav a {
+      color: #fff;
+      margin: 0 1rem;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    .container {
+      max-width: 800px;
+      margin: 2rem auto;
+      padding: 1rem;
+      background: #fff;
+      border-radius: 8px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+    h2 {
+      font-family: 'Playfair Display', serif;
+      border-bottom: 2px solid #ddd;
+      padding-bottom: 0.5rem;
+    }
+    .post {
+      margin-bottom: 2rem;
+    }
+    .post-title {
+      font-size: 1.5rem;
+      color: #222;
+    }
+    footer {
+      background: #222;
+      color: #ccc;
+      text-align: center;
+      padding: 2rem 1rem;
+      margin-top: 4rem;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Siru Writes</h1>
+    <p>Poet. Storyteller. Dreamer.</p>
+  </header>
+  <nav>
+    <a href="#home">Home</a>
+    <a href="#about">About</a>
+    <a href="#blog">Writings</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <div class="container" id="home">
+    <h2>Welcome to My Writing World</h2>
+    <p>Here you'll find my thoughts, poems, and stories that reflect my heart and imagination. Every word is a journey.</p>
+  </div>
+
+  <div class="container" id="about">
+    <h2>About Me</h2>
+    <p>Hello! I'm Srijana Poudel, a writer who finds magic in everyday moments. I write poems, short stories, and reflective thoughts to connect with hearts around the world.</p>
+  </div>
+
+  <div class="container" id="blog">
+    <h2>My Writings</h2>
+    <div class="post">
+      <div class="post-title">The Wind Whispers Still</div>
+      <p>A poem about resilience and the silent strength we all carry. (Sample post – You can replace this later)</p>
+    </div>
+    <div class="post">
+      <div class="post-title">Raindrops & Memories</div>
+      <p>A short story reflecting on love, loss, and a monsoon evening. (Sample post)</p>
+    </div>
+  </div>
+
+  <div class="container" id="contact">
+    <h2>Contact Me</h2>
+    <p>Let’s connect! Email me at <a href="mailto:siruwrites@gmail.com">siruwrites@gmail.com</a> or find me on social media (links coming soon!).</p>
+  </div>
+
+  <footer>
+    &copy; 2025 Srijana Poudel. All Rights Reserved.
+  </footer>
+</body>
+</html>
